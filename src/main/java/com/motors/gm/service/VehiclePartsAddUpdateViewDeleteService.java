@@ -2,7 +2,7 @@ package com.motors.gm.service;
 
 import com.motors.gm.model.VehicleParts;
 
-public interface VehiclePartsAddUpdateViewService {
+public interface VehiclePartsAddUpdateViewDeleteService {
 
 	void saveVehicleParts(VehicleParts vehicleParts);
 

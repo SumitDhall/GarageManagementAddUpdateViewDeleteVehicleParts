@@ -19,7 +19,7 @@ public class GarageManagementAddUpdateViewDeleteVehiclePartsApplication extends 
 	
 	public static void main(String[] args) {
 		SpringApplication.run(GarageManagementAddUpdateViewDeleteVehiclePartsApplication.class, args);
-		LOGGER.debug("Garage Management Add Update View Delete Vehicle Model Rest API Service");
+		LOGGER.debug("Garage Management Add Update View Delete Vehicle Parts Rest API Service");
 		
 	}
 

@@ -2,7 +2,7 @@ package com.motors.gm.repository;
 
 import com.motors.gm.model.VehicleParts;
 
-public interface VehiclePartsAddUpdateViewRepository {
+public interface VehiclePartsAddUpdateViewDeleteRepository {
 
 	String saveVehicleParts(VehicleParts vehicleParts);
 	public VehicleParts updateVehicleParts(VehicleParts vehicleParts, String regNumber);

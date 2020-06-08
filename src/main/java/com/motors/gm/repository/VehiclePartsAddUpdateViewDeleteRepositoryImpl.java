@@ -15,9 +15,9 @@ import com.motors.gm.model.VehicleParts;
 
 @Repository
 @EnableMongoRepositories
-public class VehiclePartsAddUpdateViewRepositoryImpl implements VehiclePartsAddUpdateViewRepository {
+public class VehiclePartsAddUpdateViewDeleteRepositoryImpl implements VehiclePartsAddUpdateViewDeleteRepository {
 
-	private static final Logger LOGGER = LogManager.getLogger(VehiclePartsAddUpdateViewRepositoryImpl.class.getName());
+	private static final Logger LOGGER = LogManager.getLogger(VehiclePartsAddUpdateViewDeleteRepositoryImpl.class.getName());
 
 	
 	@Autowired
